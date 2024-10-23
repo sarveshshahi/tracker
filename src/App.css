@@ -1,0 +1,16 @@
+.custom-bullets li::marker {
+  color: blue;
+  font-size: 30px;
+}
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-move {
+  animation: moveUpDown 2s ease-in-out infinite;
+}
